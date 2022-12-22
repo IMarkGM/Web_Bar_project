@@ -19,7 +19,7 @@ Xampp-ot használtam az adatbázis, illetve a website működtetéséhez.
 
 #### Adatok feltöltésére az adjkiralykatonat.html nyújt lehetőséget.
      
-## A következő nyelveket használja:
+## A következő technológiákat használja:
     - HTML
     - PHP
     - JavaScript
