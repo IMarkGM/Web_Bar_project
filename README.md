@@ -12,8 +12,6 @@ Ha kiválasztunk egy kategóriát, akkor átirányít minket az adott kategória
  - A fenti sáv megegyezik a főmenüben találhatóval
  - Az oldal tartalmán megjelennek a feltöltött adatok/képek és kilistázódnak kategóriához megfelelően.
 
-A cél egy olyan honlap létrehozása volt, amelyre könnyűszerrel képesek vagyunk feltölteni adatot, ami feltöltés után egyből megjelenik az oldalon.
-
 ## MySql adatbázis
 A projekten belül található egy italok_test.sql file a README.md mellett.  
 Ezt a fájlt be kell exportálni egy a projekt működéséhez.  
