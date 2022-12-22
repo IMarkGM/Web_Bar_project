@@ -1,15 +1,27 @@
 # Barhamut
 
-MySQL adatbázis
-  Adatok feltöltése:
-    adjkiralykatonat.html
-    
-    - Típus: Megtudjuk adni, hogy a feltölteni kívánt termék milyen típusba tartozik
-    - Név: Megtudjuk adni a termékhez tartozó nevet.
-    - Alkoholtartalom: Megadhatjuk, hogy ha italt töltünk alkoholos-e vagy sem az italunk.
-    - Felszolgáláskori hőtartalom: Megadhatjuk, hogy felszolgáláskor az adott terméket hidegen vagy melegen fogja megkapni a vendég
-    - Fájlfeltöltő: Egy képet tölthetünk fel a termékünkről
-    - INSERT gomb: Beilleszti a táblába a beírt adatokat, illetve lementi a feltöltött képet a szerverre
-    
-Xampp használata  
-HTML,PHP,JavaScript,Bootstrap5,CSS
+#### Egy étterem/bár sablon, amelyben könnyen felvehetőek az újabbnál újabb termékek.
+
+A projektben egy bár honlap tekinthető meg, ahol a főoldalon a következő látható:
+- Legfelül középen egy slideshow található, amelyben a bárról látható pár kép.
+- A slideshow alatt a nyitvatartás olvasható.
+- A fenti sávban látható a bár neve egy főoldalra irányító gomb és egy kategória.
+- A kategóriáknál ki lehet választani milyen típusú termék érdekel minket.
+
+Ha kiválasztunk egy kategóriát, akkor átirányít minket az adott kategória oldalára, ahol a következő látszik:
+ - A fenti sáv megegyezik a főmenüben találhatóval
+ - Az oldal tartalmán megjelennek a feltöltött adatok/képek és kilistázódnak kategóriához megfelelően.
+
+A cél egy olyan honlap létrehozása volt, amelyre könnyűszerrel képesek vagyunk feltölteni adatot, ami feltöltés után egyből megjelenik az oldalon.
+
+## MySql adatbázis
+A projekten belül található egy italok_test.sql file a README.md mellett.  
+Ezt a fájlt be kell exportálni egy a projekt működéséhez.  
+Xampp-ot használtam az adatbázis, illetve a website működtetéséhez.
+     
+## A következő nyelveket használja:
+    - HTML
+    - PHP
+    - JavaScript
+    - Bootstrap5
+    - CSS
