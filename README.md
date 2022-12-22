@@ -14,7 +14,7 @@ Ha kiválasztunk egy kategóriát, akkor átirányít minket az adott kategória
 
 ## MySql adatbázis
 A projekten belül található egy italok_test.sql file a README.md mellett.  
-Ezt a fájlt be kell exportálni egy a projekt működéséhez.  
+Ezt a fájlt be kell importálni egy a projekt működéséhez.  
 Xampp-ot használtam az adatbázis, illetve a website működtetéséhez.
 
 #### Adatok feltöltésére az adjkiralykatonat.html nyújt lehetőséget.
