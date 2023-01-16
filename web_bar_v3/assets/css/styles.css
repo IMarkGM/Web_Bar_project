@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+:root{
+  --green:#72b038;
+  --gyellow:#b7d459;
+
+}
+
+*{
+  font-family: 'Rowdies', cursive;
+  text-decoration: none;
+  outline: none;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+::selection{
+  background: var(--green);
+  color:white;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+  transition: 0.6s;
+}
+
+.dotted {
+  border-bottom: 5px dotted white;
+  width: 50%;
+  height: 70px;
+  margin: auto;
+  border-collapse: separate;
+  justify-content: center;
+}
+
+.fadein{
+  transition: 0.6s;
+}
+
+button{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-radius: 0px !important;
+}
+
+canvas{
+  position:absolute;
+  width: 100%;
+  height: 200px;
+  background:black;
+}
